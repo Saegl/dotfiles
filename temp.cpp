@@ -29,7 +29,7 @@ ostream &operator<<(ostream &os, vector<T> const &v) {
 void solution(void);
 
 int main() {
-	ios::sync_with_stdio(0);
+    ios::sync_with_stdio(0);
     cin.tie(0);
     
     solution();
