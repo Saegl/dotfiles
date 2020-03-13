@@ -3,6 +3,7 @@ using namespace std;
 
 typedef long long ll;
 typedef vector<int> vi;
+typedef vector<vi> vvi;
 typedef pair<int, int> pi;
 
 #define F first
@@ -13,14 +14,15 @@ typedef pair<int, int> pi;
 
 template<typename T>
 ostream &operator<<(ostream &os, vector<T> const &v) {
-        os << "<vector> ";
-        for (T x : v) {
-                os << x << " ";
-        }
-        return os;
+    os << "[ ";
+    for (vector<T> x : v) {
+        os << x << " ";
+    }
+    os << " ]";
+    return os;
 }
 
-#define dbg(name) ([&name]() { cerr << #name": " << name << endl; return name;})()
+#define dbg(name) cerr << #name": " << name << endl;
 #define times(t) int t; cin >> t; for(int i = 0; i < t; i++)
 #define read(n) int n; cin >> n;
 #define readll(n) ll n; cin >> n;
@@ -36,5 +38,6 @@ int main() {
 }
 
 void solution() {
+
 }
 
