@@ -16,8 +16,10 @@ Plugin 'honza/vim-snippets'
 call vundle#end()
 
 let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsListSnippets="<c-l>"
 let g:UltiSnipsJumpForwardTrigger="<tab>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+let g:UltiSnipsSnippetDirectories=[$HOME.'/dotfiles/usnips']
 
 let g:ycm_show_diagnostics_ui = 0
 let g:ycm_auto_trigger = 0

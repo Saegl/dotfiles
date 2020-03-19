@@ -1,0 +1,103 @@
+snippet f
+first
+endsnippet
+
+snippet s
+second
+endsnippet
+
+snippet pb
+push_back
+endsnippet
+
+snippet mp
+make_pair
+endsnippet
+
+snippet ll
+long long
+endsnippet
+
+snippet vi
+vector<int>
+endsnippet
+
+snippet vvi
+vector<vector<int>>
+endsnippet
+
+snippet pi
+pair<int, int>
+endsnippet
+
+snippet for
+for (int $1 = 0; $1 < $2; $1++) {
+	$0
+}
+endsnippet
+
+snippet forei "for each int"
+for (int e: $1) {
+	$0
+}
+endsnippet
+
+snippet bt "Binary Tree"
+struct Node {
+	int data;
+	Node* left;
+	Node* right;
+}
+
+endsnippet
+
+snippet print
+cout << $1 << endl;$0
+endsnippet
+
+snippet dbg
+cout << "$1: " << $1 << endl;
+endsnippet
+
+snippet dbgv
+cout << "[";
+for (int element: $1) {
+	cout << element << " ";
+}
+cout << "]" << endl;
+endsnippet
+
+snippet rd
+int $1;
+cin >> $1;
+$0
+endsnippet
+
+snippet rdll
+long long $1;
+cin >> $1;
+$0
+endsnippet
+
+snippet rds
+string $1;
+cin >> $1;
+$0
+endsnippet
+
+snippet times
+int $1;
+cin >> $1;
+while($1--) {
+	$0
+}
+endsnippet
+
+snippet comp
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	$0
+}
+endsnippet
